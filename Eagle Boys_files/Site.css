@@ -1,0 +1,267 @@
+@font-face {
+  font-family: 'yummoBold';
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_bold-webfont.eot');
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_bold-webfont.eot#iefix') format('embedded-opentype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_bold-webfont.woff') format('woff'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_bold-webfont.ttf') format('truetype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_bold-webfont.svg#YummoBoldRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yummolight';
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_light-webfont.eot');
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_light-webfont.eot#iefix') format('embedded-opentype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_light-webfont.woff') format('woff'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_light-webfont.ttf') format('truetype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_light-webfont.svg#YummoLightRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yummo';
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_regular-webfont.eot');
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_regular-webfont.eot#iefix') format('embedded-opentype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_regular-webfont.woff') format('woff'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_regular-webfont.ttf') format('truetype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_regular-webfont.svg#YummoRegularRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yummosemibold';
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_semibold-webfont.eot');
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_semibold-webfont.eot#iefix') format('embedded-opentype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_semibold-webfont.woff') format('woff'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_semibold-webfont.ttf') format('truetype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_semibold-webfont.svg#YummoSemiBoldRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yummothin';
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_thin-webfont.eot');
+  src: url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_thin-webfont.eot#iefix') format('embedded-opentype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_thin-webfont.woff') format('woff'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_thin-webfont.ttf') format('truetype'), url('/web/20170808003722im_/http://eagleboys.com.au/fonts/yummo_thin-webfont.svg#YummoThinRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html * {
+    font-family: "yummo",Arial,Helvetica,sans-serif !important;
+}
+
+body {
+    /*padding-top: 50px;*/
+    color: #58595b;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Template*/
+.navbar {
+    background: rgba(236, 236, 236, 0.9) none repeat scroll 0 0;
+}
+.container.body-content { margin-top: 15px; }
+.navbar-brand { padding: 8px; } 
+
+/*.formatted h1 {
+    font-family: "yummo",Arial,Helvetica,sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.formatted h2 {
+    font-family: "yummo",Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.formatted .sub-heading {
+    font-family: "yummo",Arial,Helvetica,sans-serif;
+    font-size: 1.5em;
+}*/
+
+.white-uppercase {
+    text-transform: uppercase;
+    color: white;
+}
+
+.pink-uppercase {
+    text-transform: uppercase;
+    color: #ed3a8b;
+}
+
+.white-txt {
+    color: white;
+}
+
+.black-txt {
+    color: black;
+}
+
+.pink-txt {
+    color: #ed3a8b;
+}
+
+.bold-txt {
+    font-weight: bold;
+}
+
+.no-space {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.pink-btn {
+    background: #ed3a8b;
+    margin-left: 20px;
+}
+
+.spacer {
+    height: 10px;
+}
+
+.divider {
+    border-right: 1px solid white;
+    background: white;
+    width: 50px;
+    height: 100%;
+}
+
+.offer-item {
+    float: left;
+    border: solid 5px #ffffff;
+}
+
+.terms-link:hover{
+    color: #ed3a8b !important;
+}
+
+/* Helper Classes */
+
+.p-5 { padding: 5px !important; }
+.p-10 { padding: 10px !important; } 
+.p-l-15 { padding-left: 15px !important; } 
+
+.m-t-10 { margin-top: 10px !important; }
+.m-t-20 { margin-top: 20px !important; }
+.m-t-15 { margin-top: 15px !important; }
+.m-t-0 { margin-top: 0 !important; }
+
+.m-b-10 { margin-bottom: 10px !important; }
+.m-b-15 { margin-bottom: 15px !important; }
+
+/* Color Theme */
+.red-highlight { color: #ed3a8b; }
+.bg-gray { background: #505251; }
+.bg-pink { background: #ed3a8b; }
+.border-ash { border: 1px solid #d6d6d6; }
+
+
+/* Footer*/
+footer {  background: rgba(236, 236, 236, 0.9) none repeat scroll 0 0; }
+
+/* Home Page */
+#title h1 { margin-bottom: 0; }
+
+.button {
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 2px #313131;
+    text-transform: uppercase;
+}
+
+.button-block {
+    vertical-align: middle;
+    border: 1px solid #ffffff;
+}
+
+.goto-link {
+    color: #fff;
+    font-family: "yummo",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 2px;
+}
+
+.goto-link:hover {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.table-hover.home-tbl > tbody > tr:hover > td,
+.table-hover.home-tbl > tbody > tr:hover > th {
+  background-color: #f2dede !important;
+}
+
+@media screen and (max-width: 800px) {
+    .formatted h1 {
+        font-size: 2em;
+    }
+}
+/*icon-style*/
+.icon-style {
+    margin-right: 10px;
+    width: 55px;
+    display: inline;
+}
+.icon-margin {
+    margin-left: 0.1%;
+}
+
+.parentbox {
+    height:100px;
+    
+    text-align: center;  /* align the inline(-block) elements horizontally */
+    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.parentbox:before {      /* create a full-height inline block pseudo-element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle; /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.childbox {
+    display: inline-block;
+    vertical-align: middle;          /* vertical alignment of the inline element*/
+    padding: 5px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+/*
+     FILE ARCHIVED ON 00:37:22 Aug 08, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:58:17 Jul 31, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.741
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.012
+  esindex: 0.014
+  cdx.remote: 41.247
+  LoadShardBlock: 1617.164 (3)
+  PetaboxLoader3.datanode: 1648.826 (4)
+  load_resource: 221.805
+  PetaboxLoader3.resolve: 101.972
+*/
